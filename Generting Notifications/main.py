@@ -1,14 +1,13 @@
-from plyer import notification
 
-
-def notifyme(title, message):
-	notification.notify(
-		title = title,
-		message = message,
-		timeout = 10
-	)
-
-
-
-if __name__ == "__main__":
-	notifyme(" YOU ARE THE BEST , KEEP IT UP")
+from plyer import notification 
+  
+  
+if __name__=="__main__": 
+  
+        notification.notify( 
+            title = "TITLE HERE", 
+            message=" DESCRIPTION OF THE MESSAGE HERE" , 
+            app_icon = "C:\Users\Jyoti\Desktop\realc\icon.png",
+            # displaying time 
+            timeout=2 
+) 
